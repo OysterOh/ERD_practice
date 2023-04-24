@@ -60,7 +60,7 @@ public class JdbcSelect {
 						, id, pw, name, age, regDate);
 				System.out.println(" ---------------------");
 			}  //while문 종료
-			System.out.println("조회된 계정의 개수: " + count + "개");
+			System.out.println("조회된 행의 개수: " + count + "개");
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {

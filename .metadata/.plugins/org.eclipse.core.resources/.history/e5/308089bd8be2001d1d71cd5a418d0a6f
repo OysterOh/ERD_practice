@@ -98,7 +98,6 @@ public class JDBCInsert {
 			int rn = pstmt.executeUpdate();
 
 			if(rn == 1) {
-				//rn == 1 true;
 				System.out.println("DB에 회원정보 저장 성공!");
 			} else {   // (rn == 0)
 				System.out.println("DB에 회원정보 저장 실패!");

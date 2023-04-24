@@ -59,12 +59,10 @@ public class JdbcSelect2 {
 			e.printStackTrace();
 		} finally {
 			try {
-				//
 				rs.close();
 				pstmt.close();
 				conn.close();
 				sc.close();
-				//
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}
